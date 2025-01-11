@@ -2245,5 +2245,5 @@ if __name__ == '__main__':
     loop.set_debug(True)
     util.logToConsole(logging.DEBUG)
     ib = IB()
-    ib.connect('127.0.0.1', 7497, clientId=1)
+    ib.connect('127.0.0.1', 7496, clientId=1)
     ib.disconnect()
